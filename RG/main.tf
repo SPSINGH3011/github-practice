@@ -18,3 +18,8 @@ resource "azurerm_resource_group" "rg" {
   location = "West Europe"
 }
 
+resource "azurerm_resource_group" "rg" {
+  name     = "git1000-rg"
+  location = "West Europe"
+}
+
