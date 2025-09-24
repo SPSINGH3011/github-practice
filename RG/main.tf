@@ -13,4 +13,8 @@ resource "azurerm_resource_group" "rg" {
   location = "West Europe"
 }
 
+resource "azurerm_resource_group" "rg" {
+  name     = "git100-rg"
+  location = "West Europe"
+}
 
