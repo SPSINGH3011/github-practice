@@ -1,0 +1,67 @@
+============🔹 Basic Commands ============
+git init → Initialize a new Git repo in current folder.
+(Naya Git repo create karta hai folder me).
+
+git add → Stage files for the next commit.
+(File ko commit ke liye ready karta hai).
+
+git commit → Save staged changes into repo history.
+(Final snapshot banata hai code ka).
+
+git push → Upload local commits to remote repo.
+(Local se remote repo me bhejta hai code).
+
+git pull → Fetch + merge changes from remote to local.
+(Remote se latest code laake local me merge karta hai).
+
+git branch → List, create, or delete branches.
+(Branch ko dekhna, banana ya delete karna).
+
+git checkout -b f/1 → Create and switch to new branch f/1.
+(Nayi branch banake turant usme chala jata hai).
+
+git merge → Combine another branch into current branch.
+(Do branch ke changes ko merge karta hai).
+
+git clone → Copy a remote repo locally.
+(Remote repo ka pura copy bana deta hai local me).
+
+git fetch → Download changes from remote, but don’t merge.
+(Sirf latest changes leta hai, merge nahi karta).
+
+
+============🔹 Review & Debugging ============
+git log → Show commit history.
+(Commit history dekhne ke liye).
+
+git diff → Show line-by-line changes between versions.
+(Kya change hua file me, wo dikhata hai).
+
+
+============🔹 Advanced============
+git rebase → Reapply commits on top of another branch.
+(History ko clean aur linear banata hai).
+
+git squash → Combine multiple commits into one.
+(Chhote commits ko ek bada commit bana deta hai).
+
+git revert → Create new commit that undoes a previous commit.
+(Pichle commit ko undo karta hai bina history badle).
+
+git cherry-pick → Apply specific commit from another branch.
+(Dusre branch ka ek commit copy karta hai).
+
+git fork → Make a copy of someone’s repo in your account.
+(Dusre repo ka apne account me copy banana).
+
+git reset → Move branch pointer to previous commit (changes lost or kept based on mode).
+(Branch ko kisi purane commit pe le jata hai).
+
+git stash → Save uncommitted changes temporarily.
+(Jo kaam adhura hai use temporarily side me rakh deta hai).
+
+git restore → Restore working directory files to last commit.
+(File ko last commit wali state me le aata hai).
+
+conflict → Happens when Git can’t auto-merge changes.
+(Jab dono taraf ke code alag hotey hain aur Git confuse hota hai).
