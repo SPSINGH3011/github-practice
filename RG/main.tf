@@ -28,3 +28,8 @@ resource "azurerm_resource_group" "rg6" {
   location = "West Europe"
 }
 
+resource "azurerm_resource_group" "rg7" {
+  name     = "git1007-rg"
+  location = "West Europe"
+}
+
